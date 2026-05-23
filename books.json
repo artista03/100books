@@ -5,8 +5,8 @@
       "category": "海外文学",
       "title": "罪と罰",
       "author": "ドストエフスキー",
-      "read": true,
-      "readAt": "2026-05-23T22:23:58.484Z"
+      "read": false,
+      "readAt": null
     },
     {
       "id": 2,
@@ -801,5 +801,5 @@
       "readAt": null
     }
   ],
-  "updatedAt": "2026-05-23T22:23:58.988Z"
+  "updatedAt": "2026-05-23T22:24:58.591Z"
 }
