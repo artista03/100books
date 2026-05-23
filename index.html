@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>百冊リスト — 今井陽介</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>百冊リスト</h1>
+  <div class="progress">
+    <div class="bar"><div id="bar-fill"></div></div>
+    <span id="progress-text">0 / 100</span>
+  </div>
+  <button id="settings-btn" title="トークン再設定">⚙</button>
+</header>
+
+<main id="book-list"></main>
+
+<dialog id="token-dialog">
+  <form method="dialog">
+    <h2>GitHubトークンを入力</h2>
+    <p>同期のためにPersonal Access Tokenが必要です。<br>
+    <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=100books" target="_blank">こちらから作成</a>
+    （scope: <code>public_repo</code>のみ）</p>
+    <input type="password" id="token-input" placeholder="ghp_xxxxxxxxxxxx" autocomplete="off" required>
+    <div class="actions">
+      <button type="button" id="token-cancel">キャンセル</button>
+      <button type="button" id="token-save">保存</button>
+    </div>
+    <p class="hint">※トークンはあなたのブラウザにのみ保存され、外部送信はありません</p>
+  </form>
+</dialog>
+
+<div id="status"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
