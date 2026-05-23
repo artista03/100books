@@ -221,8 +221,8 @@
       "category": "日本文学",
       "title": "金閣寺",
       "author": "三島由紀夫",
-      "read": false,
-      "readAt": null
+      "read": true,
+      "readAt": "2026-05-23T22:23:43.568Z"
     },
     {
       "id": 29,
@@ -801,5 +801,5 @@
       "readAt": null
     }
   ],
-  "updatedAt": "2026-05-23T22:23:38.353Z"
+  "updatedAt": "2026-05-23T22:23:44.071Z"
 }
